@@ -1,0 +1,30 @@
+{
+  "name": "electron-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ".\\node_modules\\.bin\\electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "electron": "^3.0.10"
+  },
+  "build": {
+    "appId": "noobakong.cn",
+    "productName": "noobakong",
+    "directories": {
+      "output": "./dist"
+    },
+    "win": {
+      "target": ["zip"],
+      "icon": "./source/ak.png"
+    }
+  }
+}
